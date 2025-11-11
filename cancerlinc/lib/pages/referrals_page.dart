@@ -90,15 +90,12 @@ class ReferralsPage extends StatelessWidget {
             websiteUrl: referral.websiteUrl,
             onWebsiteTap: () {
               // TODO: Implement website navigation
-              // Example: launchUrl(Uri.parse(referral.websiteUrl));
-            },
+              },
             onPhoneTap: () {
               // TODO: Implement phone call functionality
-              // Example: launchUrl(Uri(scheme: 'tel', path: referral.phoneNumber));
             },
             onEmailTap: () {
               // TODO: Implement email functionality
-              // Example: launchUrl(Uri(scheme: 'mailto', path: referral.email));
             },
           );
         },
